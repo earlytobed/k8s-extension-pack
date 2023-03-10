@@ -1,0 +1,39 @@
+{
+    "name": "k8s-extension-pack",
+    "displayName": "K8s Extension Pack",
+    "description": "Visual Studio Code extensions for K8s development.",
+    "version": "0.0.1",
+    "publisher": "Nighthawk",
+    "author": {
+        "name": "Nighthawk",
+        "email": "git@qaq.io"
+    },
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.76.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/earlytobed/k8s-extension-pack"
+    },
+    "bugs": {
+        "url": "https://github.com/earlytobed/k8s-extension-pack/issues"
+    },
+    "keywords": [
+        "docker",
+        "K8s",
+        "Kubernetes",
+        "remote"
+    ],
+    "scripts": {
+        "build": "vsce package"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [
+        "ms-azuretools.vscode-docker",
+        "ms-kubernetes-tools.vscode-kubernetes-tools",
+        "okteto.remote-kubernetes"
+    ]
+}
